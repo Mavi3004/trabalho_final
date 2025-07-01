@@ -30,7 +30,7 @@ class InterfacedoJogo:
         nomedojogo = tk.Label(self.janela, text="🌱 ECOGÊNESE: O LEGADO DO DOUTOR 🌍", font=("Helvetica", 20, "bold"), fg="green")
         nomedojogo.pack(pady=20)
 
-        img = PhotoImage(file="capa.png")
+        img = PhotoImage(file="capa3.png")
         capa = tk.Label(self.janela, image=img)
         capa.pack()
 
